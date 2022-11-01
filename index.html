@@ -1,0 +1,208 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaces</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <header> 
+<!-- NAV MENU AND HEADER-->
+        <div class="wrapper">
+            <nav>
+                <a href="#" class="logo">SPACES</a> 
+                <div class="hamburgerMenu">
+                    <label for="toggle"><h4>Menu</h4></label>
+                    <input type="checkbox" id="toggle" name="toggle" />
+                    <ul class="slideOut">
+                        <li><a href="#ourpractice">about</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#spotlight">projects</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+            </nav>       
+            <h1>Spaces is an architecture studio based in Toronto, Canada</h1>
+
+<!--MAIN IMAGE -->
+            <div class="mainimagecontainer">
+                <img src="Option1-assets/header.jpg" alt="A modern living room with sliding door that leads to an outdoor patio" class="mainimage">
+                <img src="Option1-assets/badge.png" alt="#" class="mainimagelogo">
+            </div>
+        </div>
+    </header>
+
+<!--OUR PRACTICE SECTION-->
+    <main>
+        <section id="ourpractice">
+            <div class="wrapper">
+                <ul class="ourpracticecontainer">
+                    <li class="practiceli1">
+                        <h2><span class="h2underline">Our</span> Practice</h2>
+                        <p>Manifestation spirit guides quartz, Reiki practitioner stones oracle peace healer goddess sage charms. Energy healing pendulum meditate divination practitioner candles chanting massage Buddha. Divine Light Worker herbalist, lavender love compassion practitioner pendulum massage fibonacci sage. Dance peace angels awakening. Love Flower of Life tarot shamantic. Quartz spirit guides divination peace, herbalist chakra clearing full moon shaman.</p>
+                        <p class="practicesendmessage"><a href ="mailto:info@spaces-studio.com">Send Message</a></p> 
+                    </li>
+                    <li class="practiceli2">                  
+                        <div class="practiceimages">
+                            <img src="Option1-assets/image1.jpg" alt="Modern kitchen, photographed with hallway on left" class="practiceimage1">
+                            <img src="Option1-assets/image2.jpg" alt="Alternate view of the same kitchen with a counter leading left to right" class="practiceimage2">  
+                        </div>                   
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+<!--SPOTLIGHT SECTION-->
+        <section class="spotlight" id="spotlight">
+            <div class="wrapper">
+                <h2><span class="h2underline">Spo</span>tlight</h2>
+                <p>Manifestation spirit guides quartz. Reiki practitioner stones oracle peace healer goddess sage charms.</p>
+                <ul class="doublephotorow">
+                    <li>
+                        <img src="Option1-assets/image3.jpg" alt="An off-white grey kitchen with bar-style seating">
+                        <div class="hoveroverlay">
+                            <p class=hoveroverlaylabel>elouise avenue</p>
+                            <span class="sr-only">gelouise avenue</span>                           
+                        </div>
+                        <div class="locationlabel">
+                            <h3>elouise avenue</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="Option1-assets/image4.jpg" alt="A large house built with postmodern architecture">
+                        <div class="hoveroverlay">
+                            <p class=hoveroverlaylabel>grant residence</p>
+                            <span class="sr-only">grant residence</span>
+                        </div>
+                        <div class="locationlabel">
+                            <h3>grant residence</h3>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="triplephotorow">
+                    <li>
+                        <img src="Option1-assets/image5.jpg" alt="Wooden picnic tables indoors underneath conically-shaped lamps">
+                        <div class="hoveroverlay">
+                            <p class=hoveroverlaylabel>basil lab</p>
+                            <span class="sr-only">basil lab</span>
+                        </div>
+                        <div class="locationlabel">
+                            <h3>basil lab</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="Option1-assets/image6.jpg" alt="Stairway leading to a basement area with a small cafe-style round table and two chairs">
+                        <div class="hoveroverlay">
+                            <p class=hoveroverlaylabel>jo residence</p>
+                            <span class="sr-only">jo residence</span>
+                        </div>
+                        <div class="locationlabel">
+                            <h3>jo residence</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="Option1-assets/image7.jpg" alt="An outdoor seating area with open skylight">
+                        <div class="hoveroverlay">
+                            <p class=hoveroverlaylabel>rentea</p> 
+                            <span class="sr-only">rentea</span>
+                        </div>
+                        <div class="locationlabel">
+                            <h3>rentea</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+<!--FORM SECTION-->
+        <section class="ideas" id="services">
+            <div class="wrapper">
+                <h2><span class="h2underline">Tell</span> Us About Your Ideas</h2>
+                <p>Manifestation spirit guides quartz. Reiki practitioner stones oracle peace healer goddess sage charms.</p>
+
+                <form action="#" method="#" class="ideaform" name="ideaForm">
+
+    <!--form input and email -->
+                <div class="formline1">
+                    <div class="formnameinput">
+                        <label for="name" class="labelname">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="formemailinput">
+                        <label for="email" class="labelemail">Email:</label>
+                        <input type="email" id="email" name="name">
+                    </div>
+                </div>
+            
+    <!--form textarea-->
+                <div class="textinput">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10" minlength="5" maxlength="200" placeholder="Let us know what you think!"></textarea> 
+                </div>        
+                <button type="submit" class="formbutton">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+<!-- CLIENT SECTION -->
+        <section class="clientsection">
+            <div class="wrapper">
+                <h2><span class="h2underline">Wor</span>ds from our clients</h2>
+                <div class="clientquotecontainer">
+                    <h2>Spaces were an incredible team of passionate creatives who truly transformed our space into a beautiful sanctuary.</h2> 
+                    <div class="clientquotebox">
+                        <div class="clientprofile">
+                            <img src="Option1-assets/image10.jpg">
+                                <div class="client">
+                                    <h2>Jaime Jorge</h2>
+                                    <p>Founder, RENTEA</p>
+                                </div>
+                            <img src="Option1-assets/arrow.svg" class="arrow">
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+<!--FOOTER -->
+    <footer>
+        <div class="wrapper">
+            <img src="Option1-assets/image9.jpg">
+            <div class="footerContainer" id="contact">
+                <ul class="address"><h2>SPACES</h2>
+                    <li><p>129 Jordan Ave.</p></li>
+                    <li><p>Toronto, CA  M22 324</p></li>
+                    <li><p class="linebreak"></p></li>
+                    <li><p>(232)-222-2522</p></li>
+                    <li><p class="linebreak"></p></li>
+                    <li><p><a href="mailto:info@spaces-studio.com">info@spaces-studio.com</a></p></li>
+                </ul>
+                <ul class="footernav">
+                    <h4>Menu</h4>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Who We Are</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="footernav">
+                    <h4>Projects</h4>
+                    <li><a href="#">Residential</a></li>
+                    <li><a href="#">Commercial</a></li>
+                    <li><a href="#">Conceptual</a></li>
+                </ul>
+                <ul class="footernav">
+                    <h4>Follow</h4>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">YouTube</a></li>
+                    <li><a href="#">Houzz</a></li>
+                </ul>
+            </div>
+            <hr>
+            <p class="copyright">Created at Juno College of Technology</p>
+        </div>
+    </footer>
+</body>
+
+</html>
